@@ -6,12 +6,10 @@ A beautiful Flutter application featuring a real-time clock with random number f
 
 ### 🕐 Real-Time Clock
 - Beautiful analog and digital clock display
-- Live time updates with smooth animations
 - Custom clock styling with theme integration
 
 ### 🎲 Random Number Fetching
 - Fetch random numbers from external API
-- Smooth animations and transitions
 - Integration with personalization settings
 
 ### 🔢 Prime Number Detection
@@ -22,8 +20,8 @@ A beautiful Flutter application featuring a real-time clock with random number f
 ### 🎨 Personalization
 - **Theme Switching**: Toggle between light and dark modes
 - **Color Customization**: Choose from various color schemes
-- **Gradient Effects**: Enable/disable gradient backgrounds
-- **Animation Controls**: Toggle animations on/off
+- **Background Customization**: Enable/disable gradient backgrounds
+- **Animation Controls**: Toggle background animations
 - **Persistent Settings**: All preferences saved locally
 
 ### 🌍 Internationalization
