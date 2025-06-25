@@ -37,6 +37,55 @@ A beautiful Flutter application featuring a real-time clock with random number f
 - **Animations**: Custom Lottie animations and Flutter animations
 - **Responsive Design**: Adaptive layouts for different screen sizes
 
+## 🏛️ Architecture & Patterns
+
+### **Why These Patterns/Libraries?**
+
+#### **State Management - Riverpod**
+- **Why**: Chosen over Provider/Bloc for its compile-time safety and better performance
+- **Benefits**: Automatic dependency injection, easy testing, reactive updates
+- **Usage**: Managing app state, theme preferences, and API data
+
+#### **Repository Pattern**
+- **Why**: Separates data access logic from business logic
+- **Benefits**: Clean architecture, easy testing, data source abstraction
+- **Usage**: `RandomNumberRepository` encapsulates API calls
+
+#### **Service Layer Pattern**
+- **Why**: Provides a clean interface between UI and data layer
+- **Benefits**: Reusable business logic, better separation of concerns
+- **Usage**: `RandomNumberService` handles business rules
+
+#### **Code Generation - Freezed**
+- **Why**: Eliminates boilerplate for immutable data classes
+- **Benefits**: Automatic equality, copyWith methods, union types
+- **Usage**: `PersonalizationSettings` model with JSON serialization
+
+#### **Network Layer - Dio**
+- **Why**: More powerful than standard HTTP client
+- **Benefits**: Interceptors for logging, better error handling, request/response transformation
+- **Usage**: API calls with centralized configuration
+
+#### **Local Storage - SharedPreferences**
+- **Why**: Simple key-value storage perfect for app settings
+- **Benefits**: Persistent storage, easy to use, cross-platform
+- **Usage**: Storing user preferences and personalization settings
+
+#### **Animation Library - Lottie**
+- **Why**: Complex animations without performance overhead
+- **Benefits**: Lightweight, scalable vector animations, designer-friendly
+- **Usage**: Confetti celebrations for prime number detection
+
+#### **Extension Methods**
+- **Why**: Enhances readability and reduces code duplication
+- **Benefits**: Cleaner code, reusable functionality, better organization
+- **Usage**: Context extensions, text styling, date formatting
+
+#### **Internationalization (i18n)**
+- **Why**: Built-in Flutter localization for multi-language support
+- **Benefits**: Easy translation management, automatic locale detection
+- **Usage**: English/German language support with ARB files
+
 ## 🚀 Getting Started
 
 ### Prerequisites
