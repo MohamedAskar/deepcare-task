@@ -2,6 +2,14 @@
 
 A beautiful Flutter application featuring a real-time clock with random number fetching, prime number detection, and extensive personalization options.
 
+## 📱 Demo
+
+<div align="center">
+
+https://github.com/user-attachments/assets/a2deef21-f4dd-42b3-be01-69db6a8b2deb
+
+</div>
+
 ## ✨ Features
 
 ### 🕐 Real-Time Clock
