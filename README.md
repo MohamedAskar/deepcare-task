@@ -1,6 +1,6 @@
 # DeepCare Task - Flutter Clock App
 
-A beautiful Flutter application featuring a real-time clock with random number generation, prime number detection, and extensive personalization options.
+A beautiful Flutter application featuring a real-time clock with random number fetching, prime number detection, and extensive personalization options.
 
 ## ✨ Features
 
@@ -9,15 +9,15 @@ A beautiful Flutter application featuring a real-time clock with random number g
 - Live time updates with smooth animations
 - Custom clock styling with theme integration
 
-### 🎲 Random Number Generation
-- Generate random numbers with visual feedback
+### 🎲 Random Number Fetching
+- Fetch random numbers from external API
 - Smooth animations and transitions
 - Integration with personalization settings
 
 ### 🔢 Prime Number Detection
 - Automatic prime number detection
 - Celebratory confetti animations for prime numbers
-- Date tracking for last prime number found
+- Time tracking since last prime number found
 
 ### 🎨 Personalization
 - **Theme Switching**: Toggle between light and dark modes
@@ -38,10 +38,6 @@ A beautiful Flutter application featuring a real-time clock with random number g
 - **Code Generation**: Freezed for immutable models
 - **Animations**: Custom Lottie animations and Flutter animations
 - **Responsive Design**: Adaptive layouts for different screen sizes
-
-## 📱 Screenshots
-
-*Add screenshots of your app here*
 
 ## 🚀 Getting Started
 
@@ -115,7 +111,7 @@ lib/
 
 ### Clock Screen
 - Main application screen with clock display
-- Random number generation buttons
+- Random number fetching buttons
 - Personalization access
 
 ### Personalization Modal
@@ -127,14 +123,7 @@ lib/
 ### Prime Number Modal
 - Prime number celebration
 - Confetti animations
-- Historical tracking
-
-## 🧪 Testing
-
-Run the test suite:
-```bash
-flutter test
-```
+- Time since last prime display
 
 ## 📄 License
 
@@ -144,14 +133,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Mohamed Askar**
 - GitHub: [@MohamedAskar](https://github.com/MohamedAskar)
-
-## 🤝 Contributing
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📱 Platform Support
 
