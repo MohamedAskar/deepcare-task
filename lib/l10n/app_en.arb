@@ -1,0 +1,56 @@
+{
+    "@locale": "en",
+    "weekNumber": "W {weekNumber}",
+    "@weekNumber": {
+        "placeholders": {
+            "weekNumber": {
+                "type": "int",
+                "example": "1"
+            }
+        }
+    },
+    "themeMode": "{mode, select, light{Light} dark{Dark} system{System} other{Unknown}}",
+    "@themeMode": {
+        "placeholders": {
+            "mode": {
+                "type": "String",
+                "allowedValues": [
+                    "light",
+                    "dark",
+                    "system"
+                ]
+            }
+        }
+    },
+    "primeNumberSheetTitle": "Congrats!",
+    "primeNumberSheetSubtitle": "You just found a prime number!",
+    "primeNumberSheetTimeSinceLastPrime": "Last time you found a prime number was {time}",
+    "@primeNumberSheetTimeSinceLastPrime": {
+        "placeholders": {
+            "time": {
+                "type": "String",
+                "example": "1 hour ago"
+            }
+        }
+    },
+    "primeNumberSheetFirstTime": "This is the first time you found one!",
+    "primeNumberDescription": "A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.",
+    "primeNumberSheetCta": "Close",
+    "personalizationSheetTitle": "Personalization",
+    "mainColor": "Main Color",
+    "gradientColors": "Gradient Colors",
+    "animateGradient": "Animate Gradient",
+    "animateGradientDescription": "Enables smooth color animations",
+    "resetToDefaults": "Reset",
+    "saveChanges": "Save",
+    "addGradientColor": "Add Color",
+    "gradientColorIndex": "Color {index}",
+    "@gradientColorIndex": {
+        "placeholders": {
+            "index": {
+                "type": "int",
+                "example": "1"
+            }
+        }
+    }
+}
